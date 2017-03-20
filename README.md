@@ -1,7 +1,7 @@
 erlVuejs
 =====
 
-An OTP application
+Erlang Vue.js
 
 Build
 -----
