@@ -17,3 +17,4 @@ _build
 rebar.lock
 /tmp
 tmp
+tmp/.tmp_dir610370190645
