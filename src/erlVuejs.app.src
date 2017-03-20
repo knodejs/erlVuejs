@@ -5,7 +5,10 @@
   {mod, { erlVuejs_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    ranch,
+    cowlib,
+    cowboy
    ]},
   {env,[]},
   {modules, []},
