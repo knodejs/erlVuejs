@@ -15,4 +15,5 @@ logs
 _build
 .idea
 rebar.lock
+/tmp
 tmp
