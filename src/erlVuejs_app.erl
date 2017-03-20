@@ -20,10 +20,10 @@ start(_StartType, _StartArgs) ->
         {"/", test_handler, []}
     ]}
 	]),
-	{ok, _} = cowboy:start_clear(http, 100, [{port, 8080}], #{
+	{ok, _} = cowboy:start_clear(http, 100, [{port, 7000}], #{
 		env => #{dispatch => Dispatch}
 	}),
-    io:format("Start App Port 8080 ~n"),
+    io:format("Start App Port 7000 ~n"),
     erlVuejs_sup:start_link().
 
 %%--------------------------------------------------------------------
